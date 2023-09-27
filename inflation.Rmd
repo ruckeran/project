@@ -62,14 +62,9 @@ inflation %>%
 with(mtcars, plot(hp, mpg))
 ```
 
-```{python}
-print("Hello World! Python here, do you miss R already?")
-```
-
-
 # ```{r}
 # # use a function without loading the package:
-# # package::function
+# # package::function -->
 # usethis::use_git_config(
 #   user.name = "Annegret Rucker", # <-- change to your name
 #   user.email = "annegret.rucker@iqb.hu-berlin.de", # <-- and your email
@@ -77,8 +72,12 @@ print("Hello World! Python here, do you miss R already?")
 # 
 # usethis::use_git()
 # 
-# usethis::create_github_token(description = "Token for Repro Workshop 2023 Test")
-# gitcreds::gitcreds_set()
-# usethis::gh_token_help()
-# usethis::use_github()
+#  usethis::create_github_token(description = "Token for Repro Workshop 2023 Test")
+#  gitcreds::gitcreds_set()
+#  usethis::gh_token_help()
+#  usethis::use_github()
+# ```
+
+```{r}
+repro::automate()
 ```
